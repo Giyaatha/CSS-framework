@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero-section .container {
+    background-image: url(../img/medic-b.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.about-us {
+    background: linear-gradient( 115deg, rgba(27, 78, 64, 0.8), rgba(31, 35, 34, 0.8)),
+    url(../img/consult.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+#contact-section .info {
+        width: 100%;
+        background: #fff;
+}
+
+.form-group {
+    padding-bottom: 16px;
+}
+
+#contact-section button[type=submit] {
+    background: green;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.footer form{
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid #bfdcf7;
+}
+
+.footer input[type=email]{
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+
+.footer button[type=submit] {
+    background: green;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 10px;
+}
