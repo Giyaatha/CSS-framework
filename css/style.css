@@ -18,7 +18,7 @@
     min-height: 300px;
 }
 
-#contact-section .info {
+/* #contact-section .info {
         width: 100%;
         background: #fff;
 }
@@ -58,4 +58,8 @@
     color: #fff;
     transition: 0.4s;
     border-radius: 10px;
+} */
+
+.footer .top-footer img {
+    max-width: 30%;
 }
